@@ -29,3 +29,5 @@
   * [Git-commands](Git/Git-commands.md)
 * [Servers](Servers/README.md)
   * [Apache2](Servers/Apache2.md)
+* [Ubuntu](Ubuntu/README.md)
+  * [Add-program-to-favorite](Ubuntu/Add-program-to-favorite)
