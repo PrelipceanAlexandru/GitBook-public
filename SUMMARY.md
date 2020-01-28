@@ -30,4 +30,4 @@
 * [Servers](Servers/README.md)
   * [Apache2](Servers/Apache2.md)
 * [Ubuntu](Ubuntu/README.md)
-  * [Add-program-to-favorite](Ubuntu/Add-program-to-favorite)
+  * [Add-program-to-favorite](Ubuntu/Add-program-to-favorite.md)
