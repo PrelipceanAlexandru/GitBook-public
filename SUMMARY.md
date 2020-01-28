@@ -6,6 +6,7 @@
   * [Database](Rails/database/README.md)
     * [Mysql2](Rails/Database/MySql.md)
     * [Postgres](Rails/Database/Postgres.md)
+    * [Active-Record](Rails/Database/Active-record.md)
   * [Tests](Rails/tests/README.md)
     * [Rspec-Rails](Rails/Tests/rspec-rails.md)
     * [Factory-Bot-Rails](Rails/Tests/factory-bot-rails.md)
