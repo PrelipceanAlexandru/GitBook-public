@@ -9,23 +9,23 @@ rails new [project_name]
 ## Create local_env file
 
 ```
-mkdir config/samples && touch config/samples/local_env.yml
+mkdir config/samples && touch config/samples/local_env.rb
 ```
 
-**config/samples/local_env.yml**
+**config/samples/local_env.rb**
 ```ruby
-USERNAME: 'YOUR_USERNAME'
-PASSWORD: 'YOUR_PASSWORD'
+ENV['USERNAME'] =  'YOUR_USERNAME'
+ENV['PASSWORD'] =  'YOUR_PASSWORD'
 
-DEV_DATABASE: 'YOUR_DEV_DATABASE'
-TEST_DATABASE: 'YOUR_TEST_DATABASE'
-PROD_DATABASE: 'YOUR_PROD_DATABASE'
+ENV['DEV_DATABASE'] =  'YOUR_DEV_DATABASE'
+ENV['TEST_DATABASE'] =  'YOUR_TEST_DATABASE'
+ENV['PROD_DATABASE'] =  'YOUR_PROD_DATABASE'
 ```
 
 **.gitignore**
 
 ```
-/config/local_env.yml
+/config/local_env.rb
 ```
 
 **Load the local_env.rb file**
