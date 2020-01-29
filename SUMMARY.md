@@ -22,6 +22,8 @@
       * [Edit-update-destroy-controller](Rails/Authentication/Clearance/Edit-update-destroy-controller.md)
   * [Front-end](Rails/Front-end/README.md)
     * [Bootstrap-4](Rails/Front-end/Bootstrap4.md)
+  * [Debugger](Rails/Debugger/README.md)
+    * [Byebug](Rails/Debugger/byebug.md)
 * [Shell](Shell/README.md)
   * [Guake](Shell/Guake.md)
   * [Terminal commands](Shell/Terminal-commands.md)
