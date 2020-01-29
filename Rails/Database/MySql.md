@@ -13,9 +13,9 @@ bundle install
 ```
 ## Configuration
 ```
-cp config/samples/local_env.yml config
+cp config/samples/local_env.rb config
 ```
-Update `config/local_env.yml` using your corresponding values
+Update `config/local_env.rb` using your corresponding values
 
 
 ## config/database.yml
