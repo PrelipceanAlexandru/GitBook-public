@@ -26,6 +26,7 @@
     * [Byebug](Rails/Debugger/Byebug.md)
   * [Gems](Rails/Gems/README.md)
     * [Lograge](Rails/Gems/Lograge.md)
+    * [Mail-catcher](Rails/Gems/Mail-catcher.md)
 * [Shell](Shell/README.md)
   * [Guake](Shell/Guake.md)
   * [Terminal commands](Shell/Terminal-commands.md)
