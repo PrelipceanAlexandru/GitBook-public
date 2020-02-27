@@ -12,6 +12,7 @@
     * [Factory-Bot-Rails](Rails/Tests/Factory-bot-rails.md)
     * [Rails-Controller-Testing](Rails/Tests/Rails-controller_testing.md)
     * [Faker](Rails/Tests/Faker.md)
+    * [Locust](Rails/Tests/Locust.md)
   * [Authentication](Rails/Authentication/README.md)
     * [Clearance](Rails/Authentication/Clearance/README.md)
       * [Config](Rails/Authentication/Clearance/Config.md)
