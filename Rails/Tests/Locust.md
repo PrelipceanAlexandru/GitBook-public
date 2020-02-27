@@ -1,3 +1,7 @@
+"""
+   change the extention to .py
+"""
+
 from locust import HttpLocust, TaskSet, task, between
 import logging
 
