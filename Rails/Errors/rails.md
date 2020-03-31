@@ -1,6 +1,7 @@
 rails db:migrate  TypeError: no implicit conversion of nil into String
 
 application.yml
+
 ...
 
 test:
