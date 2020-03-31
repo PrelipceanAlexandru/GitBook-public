@@ -28,6 +28,8 @@
   * [Gems](Rails/Gems/README.md)
     * [Lograge](Rails/Gems/Lograge.md)
     * [Mail-catcher](Rails/Gems/Mail-catcher.md)
+  * [Errors](Rails/Errors/README.md)
+    * [Rails](Rails/Errors/Rails.md)
 * [Shell](Shell/README.md)
   * [Guake](Shell/Guake.md)
   * [Terminal commands](Shell/Terminal-commands.md)
