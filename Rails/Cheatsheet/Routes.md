@@ -24,7 +24,7 @@ Automagically create all the routes for a RESTful resource
 resources :photos 
 ```
 
-<img src="https://cloud.githubusercontent.com/assets/25366/8561247/75b73966-24d7-11e5-896a-06506648c4fe.png">
+![](Images/routes.png)
 
 HTTP Verb | Path | Controller#Action | Used for
 --------- | ---- | ----------------- | -------
