@@ -3,6 +3,8 @@
 * [Introduction](README.md)
 * [Rails](Rails/README.md)
   * [Readme-Template](Rails/Readme-Template.md)
+  * [Cheatsheet](Rails/Cheatsheet/README.md)
+    * [Controller](Rails/Cheatsheet/Controller.md)
   * [Database](Rails/Database/README.md)
     * [Mysql2](Rails/Database/MySql.md)
     * [Postgres](Rails/Database/Postgres.md)
