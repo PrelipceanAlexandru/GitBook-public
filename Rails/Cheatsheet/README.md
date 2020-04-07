@@ -2,4 +2,4 @@
 
 ### Architecture
 
-![](rails_architecture.png)
+![](Images/rails_architecture.png)
