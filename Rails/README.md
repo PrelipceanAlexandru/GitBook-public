@@ -51,6 +51,7 @@ Rails.application.initialize!
 
 ## Update the README
 
-[Readme-Template-Raw](https://raw.githubusercontent.com/PrelipceanAlexandru/Rails-setup/master/Readme-Template.md)
+[Readme-Template-Raw](https://raw.githubusercontent.com/PrelipceanAlexandru/GitBook-public/master/Rails/Readme-Template.md)
 
 ---
+
