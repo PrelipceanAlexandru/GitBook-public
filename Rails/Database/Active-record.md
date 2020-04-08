@@ -64,7 +64,7 @@ class AddAuthorToBook < ActiveRecord::Migration[6.0]
   end
 end
 ```
-
+**This problem appear for sqlite**
 The problem that I encounted with the second migration is that because we have **null: false** when I run **rails db:migrate** I have the following error:
 
 ```ruby
@@ -72,6 +72,8 @@ SQLite3::SQLException: Cannot add a NOT NULL column with default value NULL
 ```
 
 Removing the **null: flase** will solve the problem.
+
+**For postgresql this problem does not appear**
 
 **Add a column to a table**
 
