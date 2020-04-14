@@ -727,3 +727,7 @@ Add name column on UserRole UserRole.find\_by\(user: User.first, role: Role.firs
 
 If we try to update again this record with the same data Rails will return true and will not update the record.
 
+
+  self.inheritance_column = 'sti_type'
+  https://stackoverflow.com/questions/11984893/issue-with-column-name-type-in-rails-3
+
