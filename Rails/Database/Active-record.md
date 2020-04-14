@@ -731,3 +731,5 @@ If we try to update again this record with the same data Rails will return true 
   self.inheritance_column = 'sti_type'
   https://stackoverflow.com/questions/11984893/issue-with-column-name-type-in-rails-3
 
+delegate 
+https://medium.com/@pk60905/using-delegate-in-rails-527332da7f96
