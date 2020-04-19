@@ -1,5 +1,17 @@
 # Rails-setup
 
+## Heroku commands
+
+git push heroku master
+
+heroku run rake db:migrate
+
+heroku ps:scale web=1
+
+heroku run rake db:seed
+
+
+
 ## Create a new project:
 
 ```
@@ -54,10 +66,4 @@ Rails.application.initialize!
 [Readme-Template-Raw](https://raw.githubusercontent.com/PrelipceanAlexandru/GitBook-public/master/Rails/Readme-Template.md)
 
 ---
-git push heroku master
-
-heroku run rake db:migrate
-
-heroku ps:scale web=1
-
 
