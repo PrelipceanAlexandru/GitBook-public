@@ -7,7 +7,7 @@ Migrations are a convenient way to alter your database schema over time in a con
 
 The base form
 `rails generate migration AddPartNumberToProducts`
-will generate 
+will generate base migration
 ```
 class AddPartNumberToProducts < ActiveRecord::Migration[5.0]
   def change
@@ -73,19 +73,90 @@ end
 
 `rails g migration RenameProfileNameToFullName`
 
-will generate
+Will generate a base migration like this:
 
 ```
 class RenameProfileNameToFullName < ActiveRecord::Migration
   def change
-    rename_column :profiles, :name, :full_name
   end
 end
 ```
 
-## Changing the Column Type
+**And you need to add:**
+
+`rename_column :profiles, :name, :full_name`
 
 
+## Changing the Column Type  Rollback is imposible without #up and #down
+
+### Change to string
+
+`rails g migration ChangeNameToBeStringInProfiles`
+
+will generate a base migration like this:
+
+```
+class ChangeNameToBeStringInProfiles < ActiveRecord::Migration
+  def change
+  end
+end
+```
+**And you need to add:**
+
+`change_column :profiles, :name, :string`
+
+### Change to integer
+
+`rails g migration ChangeAgeToBeIntegerInProfiles`
+
+will generate a base migration like this:
+
+```
+class ChangeAgeToBeIntegerInProfiles < ActiveRecord::Migration
+  def change
+  end
+end
+```
+**And you need to add:**
+
+`change_column :profiles, :age, :integer`
+
+### Warning 1
+1. If the column `age` was `string` and in the database exists records that can be converted to `integer`, like "20" -> 20, the migratin will be succesfull.
+
+2. If the column `age` was `string` and in the database exists records that can't be cenverted to `integer`, like "20abc" -> error, OR ,like "ABC" -> error, the migratin will fail.
+
+error message example:
+```
+Mysql2::Error: Data truncated for column 'age' at row 1
+```
+or 
+```
+Incorrect integer value: 'ABC' for column 'age' at row 1
+```
+The solution(my opinnion)
+
+Write a `rake task` to check and change the records to be able to convert from string to integer
+
+### warning 2
+
+Note that **change_column** is an **irreversible migration**. It will cause an **error** if you try to **rollback**. To prevent this, **modify the usual change method** in the migration to use **two separate up and down methods** like this:
+
+`rails g migration ChangeAgeToBeIntegerInProfiles`
+
+```
+class ChangeAgeToBeintegerInProfiles < ActiveRecord::Migration
+  def up
+    change_column :profiles, :age, :integer
+  end
+
+  def down
+    change_column :profiles, :age, :string
+  end
+end
+```
+
+**Now the rollback will work.**
 
 
 
