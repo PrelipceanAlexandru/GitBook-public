@@ -2,6 +2,7 @@
 
 Migrations are a convenient way to alter your database schema over time in a consistent and easy way
 
+[Rails Migration Checklist](https://maxwellholder.com/blog/rails-migration-checklist/)
 
 ## [Creating a Migration](https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration)
 
