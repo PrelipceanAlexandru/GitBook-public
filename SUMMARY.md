@@ -11,6 +11,8 @@
     * [Active-record](Rails/Database/Active-record.md)
     * [Active-Record](Rails/Database/Active-Record/README.md)
       * [Base](Rails/Database/Active-Record/Base.md)
+      * [Migrations](Rails/Database/Active-Record/Migration.md)
+      * [Associations](Rails/Database/Active-Record/Associations.md)
   * [Tests](Rails/Tests/README.md)
     * [Rspec-Rails](Rails/Tests/Rspec-rails.md)
     * [Factory-Bot-Rails](Rails/Tests/Factory-bot-rails.md)
