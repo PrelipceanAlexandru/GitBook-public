@@ -38,6 +38,8 @@ git show 29972425b4e0dc7e6731952b7516f6e06df46204
 
 ## Undo a commit and redo
 
+https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git?rq=1
+
 $ git commit -m "Something terribly misguided"             # (1)
 
 $ git reset HEAD~                                          # (2)
